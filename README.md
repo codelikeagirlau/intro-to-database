@@ -7,8 +7,8 @@ This workshop will introduce you to some of the basic concepts behind database d
 In this workshop, we will learn the following:
 
 1. What a database is
-   - Some of the different types of database and what a relational database is
-2. How to query a database by writing basic SQL queries to
+   - The differences between different data management systems, some of the different types of database and what a relational database is
+2. What Structure Query Language (SQL) is and how you use it to
    - retrieve data, filter data, add records and remove records
 3. What keys and joins are, including
    - Primary Keys, foreign keys and how foreign keys define relationships between data
@@ -17,7 +17,7 @@ In this workshop, we will learn the following:
 
 ## Setting Up
 
-- Ensure you have a web browser installed on your computer
+- Ensure you have a web browser installed on your computer such as Chrome, Safari, Firefox
 - You will be given a URL, username and password for accessing an example database during the workshop. Please follow the instructions given during the workshop to access this database.
 
 ## Activity 1: What is a database
@@ -93,5 +93,3 @@ We will then learn about joins, including:
 In this workshop, we covered what a database is, what a relational database is and some of the basic related concepts. We looked at querying the database to retrieve data, as well as how to add and remove data. We then looked at how to create new tables in the database.
 
 There is a lot more to SQL than we have been able to introduce in today's workshop, but we hope this has given you a flavour of how databases work along with enough information to learn more if you wish to find out more about database development.
-
-
