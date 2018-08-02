@@ -20,6 +20,32 @@ In this workshop, we will learn the following:
 - Ensure you have a web browser installed on your computer such as Chrome, Safari, Firefox
 - You will be given a URL, username and password for accessing an example database during the workshop. Please follow the instructions given during the workshop to access this database.
 
+If you want to set this up on your own laptop after the workshop, use the following instructions.
+
+#### Windows users
+We will be using SQL Server Developer edition which is free.
+- Download and install SQL Server Management Studio “Developer Edition” from here https://www.microsoft.com/en-au/sql-server/sql-server-downloads
+- We won't have time to do this during the workshop so please come prepared!
+
+#### Mac Users
+SQL Server is not available for Mac, but you will be able to access an existing databse if you have the following set up in advance:
+1. Download and install Visual Studio Code: https://code.visualstudio.com/Download
+2. Install the `mssql` extension to Visual Studio Code:
+   - Open Visual Studio Code
+   - Press Cmd+SHIFT+P to open the Command Palette in VS Code
+   - Select `Install Extension` and type `mssql`
+   - Click the green `install` button for mssql
+3. Install OpenSSL:
+   - Open Terminal (from the Finder select Go > Utilities. Double click on Terminal)
+   - Type in the following commands (press enter after each and wait for the instruction to finish executing before typing the next)
+   <pre>
+    brew update
+    brew install openssl
+    ln -s /usr/local/opt/openssl/lib/libcrypto.1.0.0.dylib /usr/local/lib/
+    ln -s /usr/local/opt/openssl/lib/libssl.1.0.0.dylib /usr/local/lib/
+   </pre>
+
+
 ## Activity 1: What is a database
 
 During the workshop, we will discuss
