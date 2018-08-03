@@ -8,7 +8,7 @@ In this workshop, we will learn the following:
 
 1. What a database is
    - The differences between different data management systems, some of the different types of database and what a relational database is
-2. What Structure Query Language (SQL) is and how you use it to
+2. What Structured Query Language (SQL) is and how you use it to
    - retrieve data, filter data, add records and remove records
 3. What keys and joins are, including
    - Primary Keys, foreign keys and how foreign keys define relationships between data
@@ -21,6 +21,8 @@ In this workshop, we will learn the following:
 - You will be given a URL, username and password for accessing an example database during the workshop. Please follow the instructions given during the workshop to access this database.
 
 If you want to set this up on your own laptop after the workshop, use the following instructions.
+<details>
+  <summary>Setting up at home</summary>
 
 #### Windows users
 We will be using SQL Server Developer edition which is free.
@@ -45,6 +47,7 @@ SQL Server is not available for Mac, but you will be able to access an existing 
     ln -s /usr/local/opt/openssl/lib/libssl.1.0.0.dylib /usr/local/lib/
    </pre>
 
+</details>
 
 ## Activity 1: What is a database
 
@@ -57,6 +60,22 @@ During the workshop, we will discuss
 We will then look more specifically at
 - What a relational database is
 - What SQL (structured query language) is
+
+### Relational databases
+- Relational databases store data in tables
+- Each table has
+   - rows, which are individual records in the database
+   - columns, which can be thought of as a list of the properties or features that each record can have in that table
+- Each column can only store one type of data, which type it stores is defined when the table is first created
+- Some datatypes that can be stored are
+   - varchar - this is for storing text
+   - date - for storing dates
+   - datetime - for storing exact dates and times
+   - decimal - for storing numerical data as a decimal, e.g. a price in dollars
+   - int - for storing whole numbers only
+
+**Practical activity:** There will be a practical activity looking at designing tables to store data
+
 
 ## Activity 2: Data manipulation
 ### Querying a database
@@ -119,3 +138,18 @@ We will then learn about joins, including:
 In this workshop, we covered what a database is, what a relational database is and some of the basic related concepts. We looked at querying the database to retrieve data, as well as how to add and remove data. We then looked at how to create new tables in the database.
 
 There is a lot more to SQL than we have been able to introduce in today's workshop, but we hope this has given you a flavour of how databases work along with enough information to learn more if you wish to find out more about database development.
+
+## What's next
+- You can find general introductory information about sql [here](https://www.w3schools.com/sql/)
+- You can download sample databases for MySQL here
+  - For MySQL (owned by Oracle)
+       -[Employees database](https://dev.mysql.com/doc/employee/en/)
+       - [Sakila database](https://dev.mysql.com/doc/sakila/en/)
+  - For SQL Server (owned by Microsft)
+       - [Adevntureworks and/or WorldWideImporters](https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases)
+- You can study more SQL courses here:
+  - [RMIT shourt course in SQL](https://shortcourses.rmit.edu.au/course_page.php?course=S650194&cbs=a92e478d54cb941b5fa7dfa3eec4ee6c)
+  - [Boxhill institute](https://www.boxhill.edu.au/courses/database-design-and-sql-learn-how-to-create-and-manage-databases-ot003-sc/)
+- You could also study courses that include SQL with
+  - [General Assembly](https://admissions.generalassemb.ly/data-analysis?&where=melbourne)
+  - [Le Wagon](https://www.lewagon.com/melbourne)
