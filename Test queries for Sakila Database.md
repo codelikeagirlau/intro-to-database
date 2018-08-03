@@ -4,7 +4,6 @@ This a list of some queries you can try out in a datbase called Sakila.
 This is an example database that is published for MySQL.
 
 ## SELECT
-select * from User where DateOfBirth > "1950-01-01";
 
 Try the following:
 
